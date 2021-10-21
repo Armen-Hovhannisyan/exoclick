@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ExoClickController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [ExoClickController::class, 'index'])->name('list.campaigns');
+Route::get('/campaigns/create', [ExoClickController::class, 'createCampaignShow'])->name('new.campaign');
+Route::post('/campaigns/create', [ExoClickController::class, 'createCampaign'])->name('campaign.create');

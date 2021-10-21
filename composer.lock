@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d4842c22e789d247c4b660e69490545f",
+    "content-hash": "794004fddd62c833863f071f4d363087",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -425,6 +425,57 @@
                 }
             ],
             "time": "2020-12-29T14:50:06+00:00"
+        },
+        {
+            "name": "exads/exads-api-client-php",
+            "version": "v1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/EXADS/exads-api-client-php.git",
+                "reference": "6c2ba4b69a276ad17325a772f34d2bb0f4381c87"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/EXADS/exads-api-client-php/zipball/6c2ba4b69a276ad17325a772f34d2bb0f4381c87",
+                "reference": "6c2ba4b69a276ad17325a772f34d2bb0f4381c87",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Exads": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Saliou",
+                    "email": "kevin@saliou.name",
+                    "homepage": "http://kevin.saliou.name"
+                }
+            ],
+            "description": "Exads API client",
+            "homepage": "https://github.com/EXADS/exads-api-client-php",
+            "keywords": [
+                "api",
+                "exads"
+            ],
+            "support": {
+                "issues": "https://github.com/EXADS/exads-api-client-php/issues",
+                "source": "https://github.com/EXADS/exads-api-client-php/tree/v1.3.1"
+            },
+            "time": "2019-04-15T17:32:05+00:00"
         },
         {
             "name": "fruitcake/laravel-cors",
